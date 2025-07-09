@@ -1,0 +1,12 @@
+{
+  "name": "releasable-app",
+  "version": "0.1.1",
+  "author": "Mike Bannister <notimpossiblemike@gmail.com>",
+  "license": "MIT",
+  "description": "Releasable App",
+  "scripts": {
+    "release:patch": "./release.sh patch",
+    "release:minor": "./release.sh minor",
+    "release:major": "./release.sh major"
+  }
+}
